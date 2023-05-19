@@ -1,0 +1,140 @@
+body {
+    background: #FFFAFA;
+}
+
+section {
+    background: #FFFFFF;
+    border: solid 1px rgb(32, 195, 250);
+    border-radius: 5px;
+    padding: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: auto;
+    margin-top: 5px;
+    width: 300px;
+    box-shadow: 8px 8px 2px rgba(0, 191, 255, 0.274);
+}
+h2#title {
+    font: bold 15pt Arial;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    padding-top: -30px;
+}
+p#p1 {
+    font: normal 12pt Arial;
+    color: black;
+    text-align: center;
+}
+h2#sexo {
+    font: bold 12pt Arial;
+    color: rgb(27, 27, 27);
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 12px;
+}
+button#mulherbtn {
+    font: normal 10pt Arial;
+    color: #993399;
+    background: white;
+    padding: 12px;
+    width: 130px;
+    margin: 12px;
+    border: none;
+    border-radius: 5px;
+    border: solid 1px #993399;
+    cursor: pointer;
+    margin-top: -5px;
+}
+button#homembtn {
+    font: normal 10pt Arial;
+    color: rgba(78, 195, 235, 0.836);
+    background: white;
+    padding: 12px;
+    width: 130px;
+    margin-right: 10px;
+    margin-top: -5px;
+    border: none;
+    border-radius: 5px;
+    border: solid 1px rgb(0, 191, 255);
+    cursor: pointer;
+}
+h2#idade {
+    font: bold 12pt Arial;
+    color: rgb(27, 27, 27);
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 2px;
+}
+input#txid {
+    padding: 12px;
+    text-align: left;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    border: solid 1px rgb(119, 119, 119);
+}
+p#pidade {
+    font: normal 12pt Arial;
+    color: rgb(65, 65, 65);
+}
+h2#altura {
+    font: bold 12pt Arial;
+    color: rgb(27, 27, 27);
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 2px;
+}
+input#txalt {
+    padding: 12px;
+    text-align: left;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    border: solid 1px rgb(119, 119, 119);
+}
+p#paltura {
+    font: normal 12pt Arial;
+    color:rgb(65, 65, 65);
+}
+h2#peso {
+    font: bold 12pt Arial;
+    color: rgb(27, 27, 27);
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 2px;
+}
+input#txpeso {
+    padding: 12px;
+    text-align: left;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    border: solid 1px rgb(119, 119, 119);
+}
+button#calcular {
+    font: bold 12pt Arial;
+    text-align: center;
+    color: white;
+    background: rgb(32, 195, 250);
+    padding: 14px;
+    width: 280px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+div#resultado {
+    font: normal 12pt Arial;
+    color: white;
+    background: #32CD32;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 300px;
+    border: none;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.438);
+    border-radius: 5px;
+}
+.escondido {
+    display: none;
+}

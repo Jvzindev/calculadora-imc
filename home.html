@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <h2 id="title">Calculadora de IMC</h2>
+    <p id="p1">Coloque os seus dados na calculadora e calcule o seu IMC: </p>
+    <section>
+        <div id="sx">
+            <h2 id="sexo">Sexo</h2>
+            <button id="mulherbtn">Mulher</button>
+            <button id="homembtn">Homem</button>
+
+            <h2 id="idade">Idade</h2>
+            <p id="pidade"><input type="number" name="idade" id="txid" placeholder="Ex: 23"> anos</p>
+
+            <h2 id="altura">Altura</h2>
+            <p id="paltura"><input type="number" name="altura" id="txalt" placeholder="Ex: 165"> cm</p>
+
+            <h2 id="peso">Peso</h2>
+            <p id="ppeso"><input type="number" name="peso" id="txpeso" placeholder="Ex: 62,5"> kg</p>
+
+            <button id="calcular" onclick="clc()">CALCULAR</button>
+        </div>
+            <div id="resultado" class="escondido"></div>
+    </section>
+</body>
+<script src="calculator.js"></script>
+</html>
